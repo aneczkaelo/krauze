@@ -1,0 +1,224 @@
+body
+{
+	width: 1346px;
+	height: auto;
+	margin-left: auto; 
+	margin-right: auto;
+	background-clip: border-box;
+	font-family: 'Roboto', 'oswald', sans-serif;
+
+	
+}
+#header 
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	margin-right: auto;
+	margin-left: auto;
+    width:100%;
+	height:80px;
+
+}
+#logo
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+    width: 30%;
+	height:100%;
+	float: left;
+}
+#menu
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+    width: 70%;
+	height:100%;
+	float: left;
+}
+
+#content
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	background-image: url(kra/y.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: top center;
+	width:100%;
+	height: 3768px;
+}
+
+#andrzej_krauze
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	text-align: center;
+	height: 150px;
+	width:100%;
+	float:left;
+	font-family:oswald;
+	font-weight:900;
+	font-size: 80px;
+}
+
+
+#lekcja_fruwania_
+{
+	height: 800px;
+	width:100%;
+}
+
+#lekcja_fruwania_left
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: right;
+	width: 27%;
+	height: 700px;
+}
+#lekcja_fruwania_top
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	width: 100%;
+	height: 100px;
+}
+#lekcja_fruwania_right
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: right;
+	width: 73%;
+	height: 700px;
+}
+#wycinanka
+{
+
+	width:100%;
+	height: 950px;
+}
+
+#wycinanka_left
+{
+	float: left;
+	width: 60%;
+	height: 100%;
+	color:white;
+}
+#wycinanka_1
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: left;
+	width: 100%;
+	height: 60%;
+}
+#wycinanka_1_1
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+#wycinanka_1_2
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+#wycinanka_2
+{
+
+	box-sizing: border-box;
+	border: 2px solid red;
+	float:left;
+	width: 100%;
+	height: 40%;
+}
+#wycinanka_right
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float:left;
+	width: 40%;
+	height: 100%;
+}
+#pan_pioro
+{
+	width:100%;
+	height: 750px;
+}
+#pan_pioro_left
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+#pan_pioro_right
+{	
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+#the_guardian
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float:left;
+	width:100%;
+	height: 900px;
+}
+#the_guardian_top
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float:left;
+	width: 100%;
+	height: 30%;
+}
+#the_guardian_left
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: left;
+	width: 30%;
+	height: 70%;
+}
+#the_guardian_right
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	float: left;
+	width: 70%;
+	height: 70%;
+}
+#footer 
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	background-color: black;
+	clear: both;
+	width: 1346px;
+	height: 100px;
+	color:white;
+}
+#fake
+{
+	clear: both;
+}
+#clear50
+{	
+	box-sizing: border-box;
+	border: 2px solid red;
+	clear:both;
+	height: 50px;
+	width: 1346px;
+
+}
