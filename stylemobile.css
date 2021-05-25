@@ -1,12 +1,13 @@
 body
 {
+	background-color: 100%;
 	width: auto;
-	height: auto;
+	height: 30000px;
 	margin-left: auto; 
 	margin-right: auto;
 	background-clip: border-box;
 	font-family: 'Roboto', 'oswald', sans-serif;
-    font-size: 40px;
+    
 	
 }
 
@@ -40,16 +41,12 @@ body
 
 #content
 {
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto;
 	box-sizing: border-box;
-	border: 2px solid red;
-	background-image: url(kra/ymobile.png);
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: top center;
 	width:90%;
-	height: 3768px;
+	height: 30000px;
 }
 
 #andrzej_krauze
@@ -71,19 +68,23 @@ body
 
 #lekcja_fruwania_left
 {
+    margin-left: auto;
+    margin-right: auto;
 	box-sizing: border-box;
 	border: 2px solid red;
-	width: 100%;
-	height: 700px;
+	width: 90%;
+	height: 1550px;
     background-color: white;
+
 }
+
 
 #lekcja_fruwania_top
 {
 	box-sizing: border-box;
 	border: 2px solid red;
 	width: 100%;
-	height: 150px;
+	height: 300px;
 }
 
 #lekcja_fruwania_right
@@ -91,57 +92,52 @@ body
 	box-sizing: border-box;
 	border: 2px solid red;
 	width: 100%;
-	height: 150px;
+	height: 700px;
 }
 #wycinanka
 {
-
+    background-color: black;;
+    color:white;
 	width:100%;
-}
-
-#wycinanka_left
-{
-	width: 100%;
 }
 
 #wycinanka_1
 {
+  
 	box-sizing: border-box;
 	border: 2px solid red;
-    width: 100%;
+	width: 100%;
+	height: auto;
 }
 
-#wycinanka_1_1
-{
-	box-sizing: border-box;
-	border: 2px solid red;
-    width: 100%;
-	height: 100px;
-}
-#wycinanka_1_2
-{
-	box-sizing: border-box;
-	border: 2px solid red;
-    width: 100%;
-	height: 100px;
-}
 #wycinanka_2
 {
-
 	box-sizing: border-box;
 	border: 2px solid red;
-    width: 100%;
-	height: 100px;
+    padding: 3%;
+	width: 100%;
+	height: auto;
 }
 
-#wycinanka_right
+#wycinanka_3
+{
+	clear:both;
+}
+
+#wycinanka_4
 {
 	box-sizing: border-box;
 	border: 2px solid red;
 	width: 100%;
-	height: 100px;
+	height: auto;
 }
-
+#wycinanka_5
+{
+	box-sizing: border-box;
+	border: 2px solid red;
+	width: 100%;
+	height: auto;
+}
 #pan_pioro
 {
 	width:100%;
@@ -207,4 +203,133 @@ body
 	clear:both;
     width: 100%;
 	height: 100px;
+}
+
+#slideshow_wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    border: 2px solid red;
+    padding: 2%;
+    height: 800px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    box-sizing: border-box;
+    border: 2px solid red;
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.next,
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.next:hover,
+.prev:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#slideshow_wrapper
+{
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    border: 2px solid red;
+    padding:2%;
+    height: 800px;
 }
