@@ -32,7 +32,6 @@ body {
 }
 #menu {
     background-color: yellow;
-    
     width: 70%;
     height: 100%;
     float: left;
@@ -73,7 +72,7 @@ body {
 }
 #lekcja_fruwania_top {
     padding-right: 85px;
-    text-align: center;
+    text-align: right;
     width: 100%;
     height: 100px;
 }
@@ -175,10 +174,16 @@ body {
     width: 70%;
     height: 70%;
 }
-#container_img
+#container_img_1
 {
     padding:20px;
-    
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#container_img_2
+{
+    padding:20px;
     float: left;
     width: 50%;
     height: 100%;
